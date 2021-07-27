@@ -1,5 +1,13 @@
+import Title from "../../components/Title";
+
+import "./HomePage.css";
+
 const HomePage = () => {
-  return <div>Home</div>;
+  return (
+    <div className="home-page-container">
+      <Title />
+    </div>
+  );
 };
 
 export default HomePage;
