@@ -1,5 +1,11 @@
+import Title from "../../components/Title";
+
 const PortfolioPage = () => {
-  return <div>portfolio</div>;
+  return (
+    <div className="portfolio-page-container">
+      <Title text="Portfolio" />
+    </div>
+  );
 };
 
 export default PortfolioPage;

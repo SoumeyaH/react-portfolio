@@ -2,10 +2,12 @@ import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
 
+import "./Header.css";
+
 const Header = () => {
   return (
     <header>
-      <Navbar bg="light" expand="lg">
+      <Navbar className="nav-bar" expand="lg">
         <Container>
           <Navbar.Brand href="/">Soumeya Hassan</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />

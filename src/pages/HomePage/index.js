@@ -5,7 +5,10 @@ import "./HomePage.css";
 const HomePage = () => {
   return (
     <div className="home-page-container">
-      <Title />
+      <div className="title-container">
+        <Title text="Soumeya Hassan" />
+        <h3 className="subtitle">Welcome to My Portfolio</h3>
+      </div>
     </div>
   );
 };
