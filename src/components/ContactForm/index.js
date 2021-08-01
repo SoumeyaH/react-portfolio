@@ -54,25 +54,25 @@ const ContactForm = () => {
 
 export default ContactForm;
 
-<form class="mx-2">
-  <div class="row">
-    <div class="col-md my-2">
-      <div class="form-floating">
+<form className="mx-2">
+  <div className="row">
+    <div className="col-md my-2">
+      <div className="form-floating">
         <input
           type="text"
           aria-label="First name"
-          class="form-control"
+          className="form-control"
           id="floatingInputGrid"
           placeholder="First Name"
         />
         <label for="floatingInputGrid">First Name</label>
       </div>
     </div>
-    <div class="col-md my-2">
-      <div class="form-floating">
+    <div className="col-md my-2">
+      <div className="form-floating">
         <input
           type="text"
-          class="form-control"
+          className="form-control"
           id="floatingInputGrid"
           placeholder="Surname"
         />
@@ -80,35 +80,35 @@ export default ContactForm;
       </div>
     </div>
   </div>
-  <div class="form-floating my-2">
+  <div className="form-floating my-2">
     <input
       type="email"
-      class="form-control"
+      className="form-control"
       id="floatingInputGrid"
       placeholder="name@example.com"
     />
     <label for="floatingInputGrid">Email address</label>
   </div>
-  <div class="form-floating mt-4">
+  <div className="form-floating mt-4">
     <input
       type="text"
-      class="form-control"
+      className="form-control"
       id="floatingInputGrid"
       placeholder="subject"
     />
     <label for="floatingInputGrid">Subject</label>
   </div>
-  <div class="form-floating mt-4">
+  <div className="form-floating mt-4">
     <textarea
-      class="form-control"
+      className="form-control"
       placeholder="Leave a comment here"
       id="floatingTextarea2"
       style="height: 100px"
     ></textarea>
     <label for="floatingTextarea2">Message</label>
   </div>
-  <div class="text-center mx-auto my-3">
-    <button type="button" class="btn btn-primary" disabled>
+  <div className="text-center mx-auto my-3">
+    <button type="button" className="btn btn-primary" disabled>
       Submit
     </button>
   </div>

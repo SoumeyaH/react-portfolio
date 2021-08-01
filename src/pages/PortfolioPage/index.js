@@ -10,7 +10,7 @@ const PortfolioPage = () => {
       <Title text="Portfolio" />
       {portfolioData.map((data) => {
         console.log("data", data);
-        return <PortfolioCard props={data} />;
+        return <PortfolioCard data={data} />;
       })}
     </div>
   );

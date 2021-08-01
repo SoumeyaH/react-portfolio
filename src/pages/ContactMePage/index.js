@@ -13,7 +13,7 @@ const ContactMePage = () => {
         <div className="contact-form-container">
           <ContactForm />
         </div>
-        <aside class="m-2">
+        <aside classsName="m-2">
           <p>
             <strong>Email:</strong>
             <a href="mailto:soumeyahassan47@gmail.com">
