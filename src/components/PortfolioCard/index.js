@@ -2,31 +2,34 @@ import Card from "react-bootstrap/Card";
 
 import "./PortfolioCard.css";
 
-const PortfolioCard = () => {
+const PortfolioCard = ({ data }) => {
+  const {
+    title,
+    videoUrl,
+    description,
+    techUsed,
+    deployedUrl,
+    githubUrl,
+  } = data;
+  console.log("card data", data);
   return (
     <Card className="text-center my-4 mx-auto shadow-lg portfolio-card">
-      <Card.Header className="card-title">Event Jam</Card.Header>
-      <Card.Img variant="top" src="https://via.placeholder.com/150" />
+      <Card.Header className="card-title">{title}</Card.Header>
+      <Card.Img variant="top" src={videoUrl} />
       <Card.Body>
-        <Card.Text>
-          Event Jam is a dynamic online application that offer users the ability
-          to search for events in any city in the UK and get relevant, reliable
-          and up to date Covid-19 information for that area.
-        </Card.Text>
-        <p class="m-2 fst-italic text-muted">
-          HTML/CSS, Bulma, JS (ES6), jQuery, Chart.js, Third-Party APIs, Git
-        </p>
+        <Card.Text>{description}</Card.Text>
+        <p class="m-2 fst-italic text-muted">{techUsed}</p>
       </Card.Body>
       <div class="d-flex flex-wrap justify-content-center">
         <div>
-          <a href="https://soumeyah.github.io/event-jam/" target="_blank">
+          <a href={deployedUrl} target="_blank">
             <button type="button" class="btn btn-light mx-3 my-1">
               Deployed
             </button>
           </a>
         </div>
         <div>
-          <a href="https://github.com/SoumeyaH/event-jam" target="_blank">
+          <a href={githubUrl} target="_blank">
             <button type="button" class="btn btn-light mx-3 my-1">
               Github
             </button>
