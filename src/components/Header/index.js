@@ -9,7 +9,6 @@ const Header = () => {
     <header>
       <Navbar className="nav-bar" expand="lg">
         <Container>
-          <Navbar.Brand href="/">Soumeya Hassan</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
