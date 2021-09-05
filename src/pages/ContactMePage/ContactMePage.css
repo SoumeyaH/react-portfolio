@@ -1,9 +1,0 @@
-.contact-me-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.contact-form-container {
-  flex-basis: 40%;
-}
